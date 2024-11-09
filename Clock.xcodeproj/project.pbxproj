@@ -11,6 +11,10 @@
 		165F17F72CDE4EAA00974C68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165F17F62CDE4EAA00974C68 /* ContentView.swift */; };
 		165F17F92CDE4EAE00974C68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165F17F82CDE4EAE00974C68 /* Assets.xcassets */; };
 		165F17FC2CDE4EAE00974C68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165F17FB2CDE4EAE00974C68 /* Preview Assets.xcassets */; };
+		16D9ACF32CDE5D9900B9D22B /* WorldClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9ACEF2CDE5D9900B9D22B /* WorldClockView.swift */; };
+		16D9ACF42CDE5D9900B9D22B /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9ACF02CDE5D9900B9D22B /* LandingView.swift */; };
+		16D9ACF52CDE5D9900B9D22B /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9ACF12CDE5D9900B9D22B /* AlarmView.swift */; };
+		16D9ACF62CDE5D9900B9D22B /* StopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9ACF22CDE5D9900B9D22B /* StopWatchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		165F17F62CDE4EAA00974C68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		165F17F82CDE4EAE00974C68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		165F17FB2CDE4EAE00974C68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		16D9ACEF2CDE5D9900B9D22B /* WorldClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldClockView.swift; sourceTree = "<group>"; };
+		16D9ACF02CDE5D9900B9D22B /* LandingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		16D9ACF12CDE5D9900B9D22B /* AlarmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		16D9ACF22CDE5D9900B9D22B /* StopWatchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopWatchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,9 @@
 			isa = PBXGroup;
 			children = (
 				165F17F32CDE4EAA00974C68 /* Clock */,
+				165F17F82CDE4EAE00974C68 /* Assets.xcassets */,
+				165F17FB2CDE4EAE00974C68 /* Preview Assets.xcassets */,
+				165F17F62CDE4EAA00974C68 /* ContentView.swift */,
 				165F17F22CDE4EAA00974C68 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,9 +62,8 @@
 		165F17F32CDE4EAA00974C68 /* Clock */ = {
 			isa = PBXGroup;
 			children = (
+				16D9ACEE2CDE5D7A00B9D22B /* Views */,
 				165F17F42CDE4EAA00974C68 /* ClockApp.swift */,
-				165F17F62CDE4EAA00974C68 /* ContentView.swift */,
-				165F17F82CDE4EAE00974C68 /* Assets.xcassets */,
 				165F17FA2CDE4EAE00974C68 /* Preview Content */,
 			);
 			path = Clock;
@@ -62,9 +72,19 @@
 		165F17FA2CDE4EAE00974C68 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				165F17FB2CDE4EAE00974C68 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		16D9ACEE2CDE5D7A00B9D22B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				16D9ACEF2CDE5D9900B9D22B /* WorldClockView.swift */,
+				16D9ACF12CDE5D9900B9D22B /* AlarmView.swift */,
+				16D9ACF02CDE5D9900B9D22B /* LandingView.swift */,
+				16D9ACF22CDE5D9900B9D22B /* StopWatchView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16D9ACF62CDE5D9900B9D22B /* StopWatchView.swift in Sources */,
+				16D9ACF42CDE5D9900B9D22B /* LandingView.swift in Sources */,
 				165F17F72CDE4EAA00974C68 /* ContentView.swift in Sources */,
+				16D9ACF52CDE5D9900B9D22B /* AlarmView.swift in Sources */,
+				16D9ACF32CDE5D9900B9D22B /* WorldClockView.swift in Sources */,
 				165F17F52CDE4EAA00974C68 /* ClockApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
