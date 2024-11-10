@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct ClockApp: App {
+struct WorldClockApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WorldClockView()  // Ensure this is set as the root view
         }
     }
 }
+

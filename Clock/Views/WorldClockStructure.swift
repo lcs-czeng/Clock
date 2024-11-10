@@ -16,26 +16,27 @@ struct WorldClockStructure: View {
     let period: String
 
     var body: some View {
-        VStack(alignment: .leading) {
-            HStack(alignment: .top) {
-                VStack(alignment: .leading) {
+        VStack {
+            HStack {
+                VStack(alignment: .leading, spacing: 1) {
                     Text("Today, \(offset)")
-                        .font(.system(size: 15))
+                        .font(.system(size: 13))
                         .foregroundColor(.gray)
                     Text(city)
-                        .font(.system(size: 30))
+                        .font(.system(size: 28, weight: .medium))
                 }
                 Spacer()
-                HStack(alignment: .lastTextBaseline) {
+                HStack(alignment: .lastTextBaseline, spacing: 2) {
                     Text(time)
-                        .font(.system(size: 57, weight: .light))
+                        .font(.system(size: 56, weight: .thin))
                     Text(period)
-                        .font(.system(size: 30))
+                        .font(.system(size: 28))
                 }
             }
-            .padding(.top, 8)
-            .padding(.horizontal)
-            .border(Color.green)
+            .padding(.vertical, 8)
+            Divider()
+                .padding(.vertical, 4)
         }
+        .padding(.horizontal)
     }
 }
