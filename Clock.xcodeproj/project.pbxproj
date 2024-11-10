@@ -11,6 +11,7 @@
 		165F17F72CDE4EAA00974C68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165F17F62CDE4EAA00974C68 /* ContentView.swift */; };
 		165F17F92CDE4EAE00974C68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165F17F82CDE4EAE00974C68 /* Assets.xcassets */; };
 		165F17FC2CDE4EAE00974C68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165F17FB2CDE4EAE00974C68 /* Preview Assets.xcassets */; };
+		16AD7E9B2CE12EDC00128F08 /* WorldClockStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AD7E9A2CE12EDC00128F08 /* WorldClockStructure.swift */; };
 		16D9ACF32CDE5D9900B9D22B /* WorldClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9ACEF2CDE5D9900B9D22B /* WorldClockView.swift */; };
 		16D9ACF42CDE5D9900B9D22B /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9ACF02CDE5D9900B9D22B /* LandingView.swift */; };
 		16D9ACF52CDE5D9900B9D22B /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9ACF12CDE5D9900B9D22B /* AlarmView.swift */; };
@@ -23,6 +24,7 @@
 		165F17F62CDE4EAA00974C68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		165F17F82CDE4EAE00974C68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		165F17FB2CDE4EAE00974C68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		16AD7E9A2CE12EDC00128F08 /* WorldClockStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockStructure.swift; sourceTree = "<group>"; };
 		16D9ACEF2CDE5D9900B9D22B /* WorldClockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldClockView.swift; sourceTree = "<group>"; };
 		16D9ACF02CDE5D9900B9D22B /* LandingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		16D9ACF12CDE5D9900B9D22B /* AlarmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				16D9ACEF2CDE5D9900B9D22B /* WorldClockView.swift */,
+				16AD7E9A2CE12EDC00128F08 /* WorldClockStructure.swift */,
 				16D9ACF12CDE5D9900B9D22B /* AlarmView.swift */,
 				16D9ACF02CDE5D9900B9D22B /* LandingView.swift */,
 				16D9ACF22CDE5D9900B9D22B /* StopWatchView.swift */,
@@ -163,6 +166,7 @@
 				16D9ACF52CDE5D9900B9D22B /* AlarmView.swift in Sources */,
 				16D9ACF32CDE5D9900B9D22B /* WorldClockView.swift in Sources */,
 				165F17F52CDE4EAA00974C68 /* ClockApp.swift in Sources */,
+				16AD7E9B2CE12EDC00128F08 /* WorldClockStructure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
